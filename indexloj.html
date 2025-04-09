@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja da MeM pet Shop</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+nav{
+    width: 100%;
+    background-color: #98FB98;
+    height: 72px;
+}
+.submenu ul{
+
+    list-style: none;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: #e20097;
+}
+.menu-li{
+    display: inline;
+    position: relative;
+  
+}
+.menu-li a{
+       padding: 1.5rem;
+       display: inline-block;
+}
+.submenu{
+    position: absolute;
+    left: 0 ;
+    display: none;
+    text-align: right;
+}
+.menu-li:hover .submenu{
+      display: block;
+      background-color: #98FB98;
+}
+.menu{
+    display: inline-block;
+    text-align: left;
+}
+.sec1 h1{
+    margin-top: 30px;
+    text-align: center;
+    color: #98FB98;
+    background-color: #ffbbe8;
+}
+.sec1 h1 img{
+    width: 60px;
+}
+.sec2 input{
+    width: 50%;
+    text-align: center;
+}
+.prod{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.card img{
+    padding: 16px;
+    margin-left: 35px;
+    background-color: #ffbbe8;
+    margin-top: 40px;
+    width: 30%;
+}
+.card p{
+    text-align: center;
+    font-size: 25px;
+}
+</style>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="menu-li"><a href="index.html">Home</a>
+             <ul class="submenu">
+                  <li> <a href="index2.html">Sobre a pagina</a>
+                </li>
+                  <li> <a href="index3.html">Informações da loja</a></li>
+                  <li> <a href="index13.html">Contatos</a></li>
+             </ul>
+            </li>
+            <li class="menu-li"><a href="indexloj.html">loja</a>
+                <ul class="submenu">
+                    <li> <a href="indexfan.html">Fantasias</a></li>
+                    
+               </ul>
+            </li>
+           <li class="menu-li"><a href="index12.html">Dicas de cuidados</a></li>
+           <li class="menu-li"><a href="index14.html">Memes</a></li>
+        </ul>
+    </nav>
+    <div class="sec1">
+    <h1><img src="img/log2.png">Bem Vindos a Loja:</h1>
+</div>
+<div class="prod">
+
+    <div class="card">
+        <img src="img/caxa.jpg" alt="">
+        <p><b>25,50R$</b></p><br><p>Caixinha de transporte, viage agora sem se preocupar com o pet </p>
+    </div>
+    <div class="card">
+        <img src="img/awa.jpg" alt="">
+        <p><b>29,50R$</b><br>Seu gato bebe pouca água, isso é por conta que os mesmo gostam d'água corrente. Dê a eles o que eles precisam...UM FILTRO</p>
+    </div>
+    <div class="card">
+        <img src="img/catguia.jpg" alt="">
+        <p><b>14,90R$</b><br>Uma guia felina. Seu bixano vai adora essa guia para uma boa caminhada</p>
+    </div>
+    <div class="card">
+        <img src="img/3capa.jpg" alt="">
+        <p><b>25,99R$</b><br>Uma capa de chuva super chique, ecologica, resistênte para seu pet arrasar com umbrella da Rianna</p>
+    </div>
+    <div class="card">
+        <img src="img/cueiu.jpg" alt="">
+        <p><b>40,00R$</b><br>Uma fantazia de abelha para seu bunny se sentir a própria rainha da comeia</p>
+    </div>
+    <div class="card">
+        <img src="img/cita.jpg" alt="">
+        <p><b>31,90R$</b><br> MAIS OLHA SÓ!Um chápeu de sapinho para sua calopsita ficar divina, fofa e ainda combinar com você!</p>
+    </div>
+    <div class="card">
+        <img src="img/boll.jpg" alt="">
+        <p><b>20,00R$</b><br>Jogue essa bola para seu pet!</p>
+    </div>
+    <div class="card">
+        <img src="img/trapelo.jpg" alt="">
+        <p><b>49,00R$</b><br>Uma escova de pelos para seu peludo favorito</p>
+    </div>
+    <div class="card">
+        <img src="img/trans.jpg" alt="">
+        <p><b>45,00R$</b><br>Transporte seu pet em segurança e conforto</p>
+    </div>
+
+</div>
+</body>
+</html>
